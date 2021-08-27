@@ -71,7 +71,7 @@ For more information on the build_model script, consult Off-the-Hook-README.txt.
 ### Testing the Stacked Model
 To test the stacked model, run   
 `python3 automate_testing.py [test case size] [upper rank]`   
-  [test case size]: int representing both the number of benign domains and phishing domains to test the model with. The total number of domains tested is 2*[test case size].
+  [test case size]: int representing both the number of benign domains and phishing domains to test the model with. The total number of domains tested is 2*[test case size].   
   [upper rank]: int representing the popoularity rank of the domain from which point on we will be extracting benign domains.   
 
 ## Desired Result
